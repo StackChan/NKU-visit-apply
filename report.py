@@ -6,7 +6,7 @@ import traceback
 
 url = "https://access.nankai.edu.cn/Apply/Index/addApply?time=1695736206000"
 server_chan_url = 'https://sc.ftqq.com/{}.send/'
-server_chan_key = 'SCT226747Tq2Kao5obFyl5IhO9vGQhonsY'
+server_chan_key = 'SCT224851TNiTzonroPkhzeBOddxUNwEzw'
 
 # def post_and_print(s, url, data, headers, cookies):
 #     result = s.post(url, data=json.dumps(data), headers=headers, cookies=cookies)
@@ -61,7 +61,7 @@ def report():
 
     # report
     cookies = {}
-    data = {"q1-2": "20180169", "q1": "N", "q11": "刘健", "q2": "田妹", "q9": "居民身份证", "q3": "130929199709012589", "q10": "18843079781",
+    data = {"q1-2": "20180169", "q1": "N", "q11": "刘健", "q2": "陈宋康", "q9": "居民身份证", "q3": "431025200207141615", "q10": "18570268868",
             "q4": "2023-09-27T07:30", "q5": "2023-09-27T22:30", "q6": "Y", "q13": "1", "q7": "", "q8": "N", "q12": "Y"}
     
     import datetime
