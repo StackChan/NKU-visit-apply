@@ -6,7 +6,7 @@ import traceback
 
 url = "https://access.nankai.edu.cn/Apply/Index/addApply?time=1695736206000"
 server_chan_url = 'https://sc.ftqq.com/{}.send/'
-server_chan_key = 'SCT224851TNiTzonroPkhzeBOddxUNwEzw'
+server_chan_key = 'SCT226747Tq2Kao5obFyl5IhO9vGQhonsY'
 
 # def post_and_print(s, url, data, headers, cookies):
 #     result = s.post(url, data=json.dumps(data), headers=headers, cookies=cookies)
