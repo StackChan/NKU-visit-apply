@@ -70,8 +70,8 @@ def report():
     # 计算明天的日期
     tomorrow_date = (current_date + datetime.timedelta(days=1)).strftime("%Y-%m-%dT")
 
-    data["q4"]=tomorrow_date+"07:30"
-    data["q5"]=tomorrow_date+"20:30"
+    data["q4"]=tomorrow_date+"05:30"
+    data["q5"]=tomorrow_date+"23:59"
 
     requestdata="data=" + json.dumps(data)
     print(requestdata)
